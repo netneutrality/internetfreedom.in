@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Internet Freedom Foundation</title>
+  <meta name="description" content="Born out of the SaveTheInternet.in movement, Internet Freedom Foundation spearheads the fight to defend net neutrality in India. We work on the full gamut of issues facing Indians’ freedom online, including net neutrality, censorship, Internet shutdowns, online privacy and encryption.">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href='//fonts.googleapis.com/css?family=Martel:400,300,600' rel='stylesheet' type='text/css'>
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="css/skeleton.css">
+  <link rel="stylesheet" type="text/css" href="css/custom.css">
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css">
+  <link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.jssocials/1.2.1/jssocials.css" />
+  <link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.jssocials/1.2.1/jssocials-theme-flat.css" />
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+<body>
+  <div class="table-container">
+    <div class="table-block footer-push">
+      <!-- Primary Page Layout
+      –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+      <div class="container">
+        <div class="row">
+          <div class="three columns desktop-only">&nbsp;</div>
+          <div class="six columns"><img class="u-max-full-width" src="images/logo.png" alt="Internet Freedom Foundation"></div>
+          <div class="three columns desktop-only">&nbsp;</div>
+        </div>
+        <div class="row">
+          <div class="twelve columns">
+            <h4>This is the <span class="darker-color">Internet Freedom Foundation</span>.</h4>
+            <h5>We aim to advance <span class="darker-color">freedom</span>, <span class="darker-color">privacy</span> and <span class="darker-color">innovation</span> on the Internet.</h5>
+            <p>Born out of the SaveTheInternet.in movement, Internet Freedom Foundation spearheads the fight to defend net neutrality in India. We work on the full gamut of issues facing Indians’ freedom online, including net neutrality, censorship, Internet shutdowns, online privacy and encryption. For further information please refer our core values and on going projects.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="three columns">&nbsp;</div>
+          <div class="six columns" style="text-align: center;">
+            <h5>Help defend our freedom online.</h5>
+            <p><a class="button" href="#" target="_blank">Join Us</a> <a class="button button-primary-color" href="#">Donate</a></p>
+          </div>
+          <div class="three columns">&nbsp;</div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-block">
+      <!-- Page Footer Layout
+           –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+      <div class="container">
+        <div id="share" class="row" style="text-align: center;">
+          <div id="jsSocials"></div>
+        </div>
+        <footer id="footer" class="twelve columns">
+          <a href="https://github.com/datameet/savethemap.in" style="color:black;">Made with <i class="fa fa-heart" style="color:#cf9773;"></i> by folks just like you.</a>
+        </footer>
+      </div> <!-- end footer div.container -->
+    </div>  <!-- end footer div.table-block -->
+  </div>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script>
+    if (location.hostname == 'www.savethemap.in' || location.hostname == 'savethemap.in') {
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-77361184-1', 'auto');
+      ga('send', 'pageview');
+    }
+</script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.jssocials/1.2.1/jssocials.min.js"></script>
+  <script>
+  var IEMobile = /IEMobile/i.test(navigator.userAgent);
+  var isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|Opera Mini/i.test(navigator.userAgent) && !IEMobile;
+  $(document)
+    .ready(function() {
+        if(isMobile) {
+        $('.desktop-only').hide();
+      }
+       $("#jsSocials").jsSocials({
+          url: "http://internetfreedom.in",
+          text: "The Internet Freedom Foundation fights for India's right to an open and free Internet.",
+          showCount: "inside",
+          showLabel: false,
+          shareIn: "popup",
+          shares: ["twitter", "facebook", "whatsapp", "googleplus"]
+      });
+    });
+
+  </script>
+</body>
+</html>
